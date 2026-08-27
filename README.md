@@ -1,11 +1,11 @@
-# utils-debounce-throttle
+# util-tools-luzm
 
 防抖和节流工具函数库
 
 ## 安装
 
 \`\`\`bash
-npm install @yourusername/utils-debounce-throttle
+npm install @lu674197686/util-tools-luzm
 \`\`\`
 
 ## 使用
@@ -13,7 +13,7 @@ npm install @yourusername/utils-debounce-throttle
 ### 防抖
 
 \`\`\`javascript
-import { debounce } from '@yourusername/utils-debounce-throttle';
+import { debounce } from '@lu674197686/util-tools-luzm';
 
 const handleInput = debounce((value) => {
   console.log('输入值:', value);
@@ -26,7 +26,7 @@ handleInput('hello');
 ### 节流
 
 \`\`\`javascript
-import { throttle } from '@yourusername/utils-debounce-throttle';
+import { throttle } from '@lu674197686/util-tools-luzm';
 
 const handleScroll = throttle(() => {
   console.log('滚动位置:', window.scrollY);

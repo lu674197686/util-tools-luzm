@@ -1,5 +1,5 @@
 {
-  "name": "util-tools",
+  "name": "@lu674197686/util-tools-luzm",
   "version": "1.0.0",
   "description": "Debounce and throttle utility functions",
   "main": "src/index.js",
