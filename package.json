@@ -1,5 +1,5 @@
 {
-  "name": "@lu674197686/util-tools-luzm",
+  "name": "@lzm674197686/util-tools-luzm",
   "version": "1.0.0",
   "description": "Debounce and throttle utility functions",
   "main": "src/index.js",
@@ -17,7 +17,7 @@
     "test": "jest"
   },
   "keywords": ["debounce", "throttle", "utils", "javascript"],
-  "author": "",
+  "author": "luzm",
   "license": "MIT",
   "repository": {
     "type": "git",
