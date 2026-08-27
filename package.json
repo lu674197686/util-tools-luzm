@@ -21,12 +21,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lu674197686/util-tools.git"
+    "url": "git+https://github.com/lu674197686/util-tools-luzm.git"
   },
   "bugs": {
-    "url": "https://github.com/lu674197686/util-tools/issues"
+    "url": "https://github.com/lu674197686/util-tools-luzm/issues"
   },
-  "homepage": "https://github.com/lu674197686/util-tools#readme",
+  "homepage": "https://github.com/lu674197686/util-tools-luzm#readme",
   "type": "commonjs",
   "devDependencies": {
     "@babel/core": "^7.29.7",
