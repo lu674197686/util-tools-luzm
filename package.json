@@ -1,0 +1,41 @@
+{
+  "name": "util-tools",
+  "version": "1.0.0",
+  "description": "Debounce and throttle utility functions",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "files": ["src", "dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "keywords": ["debounce", "throttle", "utils", "javascript"],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lu674197686/util-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lu674197686/util-tools/issues"
+  },
+  "homepage": "https://github.com/lu674197686/util-tools#readme",
+  "type": "commonjs",
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@rollup/plugin-babel": "^7.1.0",
+    "@rollup/plugin-commonjs": "^29.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.4.2",
+    "rollup": "^4.63.0"
+  }
+}
